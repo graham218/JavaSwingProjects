@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="ac21b573-da0d-4a91-b829-73d385b7f218">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT * FROM roomsAvailable]]>
+	</queryString>
+	<field name="idr" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="id" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="roomNumber" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="roomType" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="roomPhone" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="roomPrice" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="roomStatus" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="138" splitType="Stretch">
+			<staticText>
+				<reportElement x="41" y="4" width="470" height="33" uuid="8454b715-fd67-4a21-ab65-ae0cd3c742b3"/>
+				<textElement textAlignment="Center">
+					<font size="22" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[FIVE STAR HOTEL  *]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="41" y="37" width="470" height="32" uuid="c3d87140-a1d1-42c4-ac5c-fd2ea1a29eea"/>
+				<textElement textAlignment="Center">
+					<font size="22" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[PO BOX 123 MY TOWN(K)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="41" y="75" width="470" height="30" uuid="3a03f0f2-9c80-4df1-994b-0ee2de00aea3"/>
+				<textElement textAlignment="Center">
+					<font size="22" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[CONTACT : 0790613916]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="41" y="105" width="470" height="27" uuid="e30b433c-3e60-456d-8379-6392f51b3b71"/>
+				<textElement textAlignment="Center">
+					<font size="22" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[EMAIL: grahambill011@gmail.com]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="16" y="4" width="516" height="51" forecolor="#2B4BA5" uuid="42bcb56b-902c-465b-be89-c5e576776b5d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="36" isBold="true" isItalic="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[HOTEL ROOMS]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="31" splitType="Stretch">
+			<staticText>
+				<reportElement x="2" y="2" width="60" height="20" forecolor="#4B9D1A" uuid="58b28c52-7ab3-4f46-8050-1bdd6a218135"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="62" y="1" width="100" height="20" forecolor="#4B9D1A" uuid="1ce70b53-7b14-478a-834c-33fd47f4f205"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Room Number]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="163" y="2" width="100" height="20" forecolor="#4B9D1A" uuid="4eb633d0-97a4-4c13-98b7-eae8c75f0d36"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Room Type]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="264" y="2" width="100" height="20" forecolor="#4B9D1A" uuid="e8332313-617f-45f8-86be-146a0dc51058"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Room Phone NO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="365" y="2" width="84" height="20" forecolor="#4B9D1A" uuid="424152a2-209a-4695-9f65-03f4168d68e3"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Room Price]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="450" y="2" width="100" height="20" forecolor="#4B9D1A" uuid="69c0d72a-1a43-4200-bc88-4559789ae031"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Room Status]]></text>
+			</staticText>
+			<line>
+				<reportElement x="2" y="26" width="551" height="1" uuid="d7cf8aed-bce3-48a7-b92d-bc62a3a66471"/>
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="27" splitType="Stretch">
+			<textField>
+				<reportElement x="2" y="5" width="60" height="20" uuid="de6a646d-da76-4458-b8b8-c4a134204d66"/>
+				<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="62" y="5" width="100" height="20" uuid="bc0056cc-f846-4588-b2b0-6516d8c426d7"/>
+				<textFieldExpression><![CDATA[$F{roomNumber}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="163" y="6" width="100" height="20" uuid="daf639c2-c04b-4b4a-b8c9-66bc5a6ae3a6"/>
+				<textFieldExpression><![CDATA[$F{roomType}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="264" y="5" width="100" height="20" uuid="49711a2d-e9bd-4919-b50d-79a12b2bdb33"/>
+				<textFieldExpression><![CDATA[$F{roomPhone}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="365" y="5" width="84" height="20" uuid="6f376856-55bf-46f1-bc7b-07a08d35a4ad"/>
+				<textFieldExpression><![CDATA[$F{roomPrice}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="450" y="5" width="100" height="20" uuid="9a76db91-2595-4918-9e7b-864a9b8d0a94"/>
+				<textFieldExpression><![CDATA[$F{roomStatus}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="60" splitType="Stretch">
+			<line>
+				<reportElement x="3" y="6" width="551" height="1" uuid="e30adafc-09c8-40e8-80f5-bbbd5f581e9b"/>
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

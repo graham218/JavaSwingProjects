@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="d0324e6c-fada-4700-a618-dfb39bc636e2">
+	<property name="ireport.zoom" value="1.5"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="151"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT * from tenderPay]]>
+	</queryString>
+	<field name="ida" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="tenderId" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="tenderNo" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="itemName" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="quantity" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="price" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="total" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="accNo" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="date" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="140" splitType="Stretch">
+			<staticText>
+				<reportElement x="174" y="76" width="470" height="30" uuid="1826c347-803b-4f99-9d04-79b7fe84fd34"/>
+				<textElement textAlignment="Center">
+					<font size="22" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[CONTACT : 0790613916]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="174" y="5" width="470" height="33" uuid="088deb55-043f-44a8-a0f0-7c01bcf0bfa8"/>
+				<textElement textAlignment="Center">
+					<font size="22" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[FIVE STAR HOTEL  *]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="174" y="38" width="470" height="32" uuid="a8ee5a69-5f0e-45aa-9ac1-23132d86ac01"/>
+				<textElement textAlignment="Center">
+					<font size="22" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[PO BOX 123 MY TOWN(K)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="174" y="106" width="470" height="27" uuid="1202b314-72ab-46fb-853f-2c662ab18f3c"/>
+				<textElement textAlignment="Center">
+					<font size="22" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[EMAIL: grahambill011@gmail.com]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="10" y="4" width="779" height="51" forecolor="#6E792A" uuid="86b30097-69aa-40ca-9fc4-93174bbdaf08"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="36" isBold="true" isItalic="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[TENDER PAYMENT BY FINANCE DEPT]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="34" splitType="Stretch">
+			<staticText>
+				<reportElement x="3" y="2" width="100" height="20" uuid="9f6c3c38-aa2e-40da-870c-445ff6e4fe7a"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Tender ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="103" y="2" width="100" height="20" uuid="4e97224d-9c32-4bdf-986d-a63bd9530053"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Tender Number]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="203" y="2" width="156" height="20" uuid="a990b96e-d2cb-4a4e-b78a-aa87e5f624c3"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Item Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="359" y="2" width="67" height="20" uuid="e686f2b9-708d-4f62-b945-fad04586e3ca"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Quantity]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="428" y="2" width="66" height="20" uuid="bd457f88-3340-4adc-a040-1041bd9a9499"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Price]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="495" y="2" width="69" height="20" uuid="ab7ec5f8-267d-4180-a8ff-d6f3afe5e8f8"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Total]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="565" y="2" width="115" height="20" uuid="aca50865-bc62-4ca3-9271-051c543149ea"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Account No]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="681" y="2" width="121" height="20" uuid="4b42a331-5163-4672-b4da-5d59030e0e3b"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Date Paid]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="28" width="802" height="1" uuid="4106a96e-9d04-4c0e-b13f-b2c3822cfda6"/>
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="27" splitType="Stretch">
+			<textField>
+				<reportElement x="3" y="3" width="100" height="20" uuid="624fe778-7e64-43e6-a683-451c810fb7f3"/>
+				<textFieldExpression><![CDATA[$F{tenderId}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="103" y="4" width="100" height="20" uuid="8087092b-6c77-4ae7-b1be-c17c560aebae"/>
+				<textFieldExpression><![CDATA[$F{tenderNo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="203" y="4" width="156" height="20" uuid="7cf6bf04-92ce-4e9e-8240-1365ccc577c1"/>
+				<textFieldExpression><![CDATA[$F{itemName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="359" y="4" width="67" height="20" uuid="319d4e11-967b-4a91-b7bc-2572cb709447"/>
+				<textFieldExpression><![CDATA[$F{quantity}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="428" y="4" width="66" height="20" uuid="26413a7a-2f0f-472f-8fc1-1ffa7004c3a1"/>
+				<textFieldExpression><![CDATA[$F{price}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="495" y="4" width="69" height="20" uuid="e469ec2e-5900-4c6a-9125-ff939e0f437a"/>
+				<textFieldExpression><![CDATA[$F{total}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="565" y="3" width="115" height="20" uuid="d05a79e7-16d0-4571-8195-da98233eb071"/>
+				<textFieldExpression><![CDATA[$F{accNo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="681" y="3" width="121" height="20" uuid="bf16c1ab-9229-4286-aaa0-e1e18c0953dd"/>
+				<textFieldExpression><![CDATA[$F{date}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch">
+			<line>
+				<reportElement x="4" y="4" width="802" height="1" uuid="67a305a9-1eb8-45ed-9c01-e33c6ab69c53"/>
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
