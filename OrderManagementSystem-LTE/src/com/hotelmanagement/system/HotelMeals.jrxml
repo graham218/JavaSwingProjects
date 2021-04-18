@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5bc022b6-8108-4367-8242-78562df1572f">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT * FROM meals]]>
+	</queryString>
+	<field name="id" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="mealNo" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="mealName" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="description" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="price" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="quantity" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="135" splitType="Stretch">
+			<staticText>
+				<reportElement x="44" y="2" width="470" height="33" uuid="b86c79df-dc3b-4fcc-93d3-51f15b2837bc"/>
+				<textElement textAlignment="Center">
+					<font size="22" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[FIVE STAR HOTEL  *]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="44" y="35" width="470" height="32" uuid="f78f40c7-af4c-49e7-b7f5-ccf149261509"/>
+				<textElement textAlignment="Center">
+					<font size="22" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[PO BOX 123 MY TOWN(K)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="44" y="73" width="470" height="30" uuid="6f7ea6a8-bff2-4b75-800e-6c3228591558"/>
+				<textElement textAlignment="Center">
+					<font size="22" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[CONTACT : 0790613916]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="44" y="103" width="470" height="27" uuid="32b56f42-354e-4357-9f64-aa87a348fd09"/>
+				<textElement textAlignment="Center">
+					<font size="22" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[EMAIL: grahambill011@gmail.com]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="60" splitType="Stretch">
+			<staticText>
+				<reportElement x="14" y="6" width="516" height="51" forecolor="#2F792A" uuid="70272a97-befa-49c0-bf94-2efb59bed5fd"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="36" isBold="true" isItalic="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[HOTEL MEALS]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="30" splitType="Stretch">
+			<staticText>
+				<reportElement x="2" y="2" width="42" height="20" forecolor="#293687" uuid="40017434-3299-4d24-848b-7b87ae0f1fa5"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="46" y="2" width="58" height="20" forecolor="#293687" uuid="cd6844cf-ac6b-4b97-9904-e2e97ffc0352"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Meal NO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="106" y="2" width="143" height="20" forecolor="#293687" uuid="8095444d-57ea-42c5-a32f-bc15aa78b37d"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Meal Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="249" y="2" width="126" height="20" forecolor="#293687" uuid="2d1e8dd5-65a2-41b9-9c70-44befea5b65c"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Description]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="375" y="2" width="61" height="20" forecolor="#293687" uuid="60c631c0-cdbd-49cf-af00-e3814aad91d7"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Price]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="436" y="2" width="115" height="20" forecolor="#293687" uuid="ed8abe55-f9bb-4015-9fbc-67b8767b262f"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Quantity Available]]></text>
+			</staticText>
+			<line>
+				<reportElement x="3" y="25" width="551" height="1" uuid="ee23f711-0470-4c6f-bebf-b8fb70d6bf4d"/>
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="29" splitType="Stretch">
+			<textField>
+				<reportElement x="5" y="5" width="42" height="20" uuid="eb0b33df-c5af-4381-8ee0-f73d3d3242ec"/>
+				<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="46" y="4" width="58" height="20" uuid="36f25707-ebf3-4c3c-a732-1c166e49db15"/>
+				<textFieldExpression><![CDATA[$F{mealNo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="106" y="5" width="143" height="20" uuid="38ba0358-ca0c-4367-86e3-f18bf6b3bb6b"/>
+				<textFieldExpression><![CDATA[$F{mealName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="249" y="5" width="126" height="20" uuid="025c1bff-e02c-4ac9-bad2-1814652d2e52"/>
+				<textFieldExpression><![CDATA[$F{description}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="375" y="5" width="61" height="20" uuid="f0f16616-7f63-4930-9e68-0d658f498f3e"/>
+				<textFieldExpression><![CDATA[$F{price}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="436" y="4" width="115" height="20" uuid="4fbea339-2bb4-4829-94ba-f8db9e8e9855"/>
+				<textFieldExpression><![CDATA[$F{quantity}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch">
+			<line>
+				<reportElement x="4" y="6" width="551" height="1" uuid="ca505fad-228b-475e-9de5-da214df508d1"/>
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

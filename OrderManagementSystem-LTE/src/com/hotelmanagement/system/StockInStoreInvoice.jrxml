@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="86bab676-b0fd-4467-b285-85ec2c572957">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT * FROM stockInStore]]>
+	</queryString>
+	<field name="id" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="dateAdded" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="itemNumber" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="itemName" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="description" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="price" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="quantity" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="138" splitType="Stretch">
+			<staticText>
+				<reportElement x="44" y="4" width="470" height="33" uuid="30639500-a460-4efe-9ec2-f90b04c5acf5"/>
+				<textElement textAlignment="Center">
+					<font size="22" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[FIVE STAR HOTEL  *]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="44" y="37" width="470" height="32" uuid="66ba2ea2-411d-4d13-a35b-858a3ca87ce3"/>
+				<textElement textAlignment="Center">
+					<font size="22" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[PO BOX 123 MY TOWN(K)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="44" y="75" width="470" height="30" uuid="51ccb055-6b33-4d20-abf4-71706e16ea7c"/>
+				<textElement textAlignment="Center">
+					<font size="22" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[CONTACT : 0790613916]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="44" y="105" width="470" height="27" uuid="45602f0e-ef94-41d2-8d98-d8904677683f"/>
+				<textElement textAlignment="Center">
+					<font size="22" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[EMAIL: grahambill011@gmail.com]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="59" splitType="Stretch">
+			<staticText>
+				<reportElement x="10" y="3" width="516" height="51" forecolor="#BB23C2" uuid="e5196de9-1558-41cd-80e1-92027e5051fd"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="36" isBold="true" isItalic="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[STOCK IN STORE]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="33" splitType="Stretch">
+			<staticText>
+				<reportElement x="3" y="2" width="41" height="20" forecolor="#BC2622" uuid="8d0f8faa-a77f-460e-966d-39a3f94b1c71"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="45" y="2" width="107" height="20" forecolor="#BC2622" uuid="d085c3ab-2d62-45ef-a45b-76b80db5ecba"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Date First Added]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="152" y="2" width="57" height="20" forecolor="#BC2622" uuid="b7ff95f3-d458-40e0-9947-a908dd2d571b"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Item NO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="210" y="2" width="100" height="20" forecolor="#BC2622" uuid="daee1e5f-256a-4e83-a51e-37529f7127ff"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Item Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="307" y="2" width="100" height="20" forecolor="#BC2622" uuid="68d34e30-c009-4c0f-98a1-8c84392612d3"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Description]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="408" y="2" width="57" height="20" forecolor="#BC2622" uuid="2d0f0cf7-115f-4d52-bae0-6bc70adbae28"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Price]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="467" y="2" width="88" height="20" forecolor="#BC2622" uuid="7bf195e0-16a1-4a63-8b0a-740bca6b2c21"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14" isBold="true" isItalic="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Qty in Store]]></text>
+			</staticText>
+			<line>
+				<reportElement x="4" y="26" width="551" height="1" uuid="78f6bb73-abce-44d7-8c8d-9e032c12753e"/>
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="29" splitType="Stretch">
+			<textField>
+				<reportElement x="3" y="3" width="41" height="20" uuid="20dae724-0d02-4126-aed1-a61683b86566"/>
+				<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="45" y="4" width="107" height="20" uuid="1e6e4b89-7756-47b9-a32d-96864c266202"/>
+				<textFieldExpression><![CDATA[$F{dateAdded}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="152" y="4" width="57" height="20" uuid="6012f0c6-aeff-42bf-a887-69653cb5d5a5"/>
+				<textFieldExpression><![CDATA[$F{itemNumber}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="210" y="4" width="100" height="20" uuid="91be0e61-4f64-4138-a600-42b3425fedbf"/>
+				<textFieldExpression><![CDATA[$F{itemName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="310" y="4" width="100" height="20" uuid="b6d817a1-ce62-4a72-97f6-6877977b8291"/>
+				<textFieldExpression><![CDATA[$F{description}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="410" y="5" width="57" height="20" uuid="06985b65-2f95-4939-b81c-099ccfd23b36"/>
+				<textFieldExpression><![CDATA[$F{price}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="467" y="5" width="88" height="20" uuid="05e4ed0f-75de-43c6-8220-b4ffe4bffcb4"/>
+				<textFieldExpression><![CDATA[$F{quantity}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch">
+			<line>
+				<reportElement x="2" y="5" width="551" height="1" uuid="fcddab53-e528-43a6-8850-d9be0abd7280"/>
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
